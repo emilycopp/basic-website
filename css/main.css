@@ -1,6 +1,6 @@
 html {
 	text-align: left;
-	font-size: 0.5rem;
+	line-height: 1.5rem;
 }
 
 h1 {
@@ -52,8 +52,79 @@ h2 {
 	color: #9c186c;
 	line-height: 1.5;
 	margin: 1em 0em;
-	border-top: solid;
+	padding-top: 1em;
+	border-top: 5px solid;
 	border-color: #fdd312;
 	text-align: left;
+}
 
+h3 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #9c186c;
+	line-height: 1.5;
+	margin: 0;
+	padding-top: 1em;
+	text-align: left;
+}
+
+h4 {
+	font-style: italic;
+	font-weight: normal;
+}
+
+blockquote {
+	font-size: 2rem;
+	font-style: italic;
+	text-align: center;
+	line-height: 2.5rem;
+	color: #716946;
+}
+
+blockquote p {
+	margin: 0;
+}
+
+.quotation:before{
+	content: "\201C";
+	color: #716946;
+}
+
+.quotation:after{
+	content: "\201D";
+	color: #716946;
+}
+
+figure {
+	border: 2px solid #716946;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 1em 1em;
+	background-color: #fbf2cb;
+	margin: 0;
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+}
+
+dl dt {
+	font-weight: bold;
+}
+
+dl dd {
+	text-align: left;
+	margin: 0;
+}
+
+footer {
+	background-color: #fdd312;
+	padding: 1em 0em;
+	text-align: center;
+}
+
+footer a{
+color: #9c186c;
 }
