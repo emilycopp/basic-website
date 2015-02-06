@@ -4,10 +4,56 @@ html {
 }
 
 h1 {
+	font-family: Arial;
 	font-weight: bold;
 	font-size: 5rem;
 	color: #9c186c;
 	text-align: center;
-	background-color: yellow;
+	background-color: #fdd312;
+	padding: 0.5em;
+	margin: 0;
 }
 
+a:hover {
+	background-color: #d52193;
+}
+
+nav {
+	background-color: #fdd312;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em 1em;
+	border-radius: 4px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	background-color: #716946;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+h2 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 3rem;
+	color: #9c186c;
+	line-height: 1.5;
+	margin: 1em 0em;
+	border-top: solid;
+	border-color: #fdd312;
+	text-align: left;
+
+}
