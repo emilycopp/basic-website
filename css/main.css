@@ -1,0 +1,13 @@
+html {
+	text-align: left;
+	font-size: 0.5rem;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 5rem;
+	color: #9c186c;
+	text-align: center;
+	background-color: yellow;
+}
+
